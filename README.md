@@ -21,11 +21,11 @@ A lightweight and thread-safe logging library implemented in C. Designed as a si
 3. **Define the implementation macro in single source file:**
    ```c
    #define LOGGER_IMPLEMENTATION
-   #include "logger.h"
+   #include "stb_logger.h"
    ```
 4. **Use the API:** 
    ```c
-   #include "logger.h"
+   #include "stb_logger.h"
 
     int main() {
       Logger* logger = createLogger("app.log", LOG_DEBUG, 1);
